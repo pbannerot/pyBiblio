@@ -72,6 +72,7 @@ class Bibliothèque:
 if __name__ == "__main__":
     bib = Bibliothèque()
     bib.ajouter_livre (titre="Sapiens", auteur="Harari", isbn="SH123")
+    bib.ajouter_livre (titre="Une brève histoire du temps", auteur="Stephen Hawking", isbn="SGxxx")
     bib.ajouter_livre (titre="On a marché sur la lune", auteur="Hergé", isbn="HG1")
     bib.ajouter_livre (titre="Sapiens", auteur="Harari", isbn="SH123")
     bib.ajouter_vidéo (titre="ET", réalisateur="Spielberg", durée=123, isbn="SP99")
